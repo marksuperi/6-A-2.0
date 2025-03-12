@@ -1,26 +1,28 @@
 <html>
-<title>6-А</title>
-<h1>наш клас 6-А</h1>
+<title>Тигри світу</title>
+<h1>Тигри світу</h1>
 
 <body>
 
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: black;
+            background-color: #2c3e50; /* Темний фон для контрасту */
             color: white;
         }
 
         h1 {
             font-size: 50px;
-            color: #3498db;
+            color: #f39c12; /* Оранжевий, як у тигра */
             text-align: center;
+            text-shadow: 2px 2px 4px #000000; /* Тінь для тексту */
         }
 
         h2 {
             font-size: 40px;
-            color: #2ecc71;
+            color: #f39c12; /* Оранжевий, як у тигра */
             text-align: center;
+            text-shadow: 2px 2px 4px #000000; /* Тінь для тексту */
         }
 
         p {
@@ -29,132 +31,161 @@
         }
 
         header a {
-            color: lightblue;
+            color: #f39c12; /* Оранжевий для посилань */
             margin-right: 10px;
             text-decoration: none;
         }
 
-        header a: {
+        header a:hover {
             text-decoration: underline;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
+        footer {
+            background-color: #34495e;
+            text-align: center;
+            padding: 20px;
+            color: #ecf0f1;
         }
 
-        td {
+        footer p {
+            margin: 5px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin: 10px;
+            width: 80%;  /* Встановлюємо однакову ширину для всіх зображень */
+            height: auto;  /* Висота буде автоматично коригуватися для збереження пропорцій */
+            display: block; /* Робимо картинку блочним елементом для вирівнювання */
+            margin-left: auto;  /* Вирівнюємо картинку ліворуч */
+            margin-right: auto;  /* Вирівнюємо картинку праворуч */
+        }
+
+        .tiger-image {
+            width: 70%;  /* Зменшуємо ширину картинки до 70% від ширини контейнера */
+            height: auto;
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #34495e;
+        }
+
+        th, td {
             padding: 10px;
             text-align: center;
             border: 1px solid #ecf0f1;
         }
 
-
-        tr: {
-            background-color: #34495e;
+        th {
+            background-color: #f39c12;
             color: white;
-            font-weight: bold;
-        }
-
-        tr: {
-            background-color: #2c3e50;
-        }
-
-        tr: {
-            background-color: #34495e;
         }
 
         td {
-            background-color: #4f5b66;
-            color: #ecf0f1;
+            background-color: #2c3e50;
+            color: white;
         }
     </style>
 
     <header>
-        <a href="#class_leader">класний керівник</a>
-        <a href="#honor_student">відмінник</a>
-        <a href="#athlete">ударник</a>
-        <a href="#schedule">Розклад</a>
+        <a href="#tiger_description">Тигри</a> |
+        <a href="#siberian_tiger">Сибірський тигр</a> |
+        <a href="#bengal_tiger">Бенгальський тигр</a> |
+        <a href="#malayan_tiger">Малайський тигр</a> |
+        <a href="#indochinese_tiger">Індокитайський тигр</a> |
+        <a href="#comparison_table">Таблиця порівняння</a>
     </header>
 
-    <img src="https://sun9-23.userapi.com/impf/c855336/v855336210/bb387/7hG_dE751ug.jpg?size=604x604&quality=96&sign=b04fdfacf2095a4a73f08ad9d56ca822&type=album" height="300px"/>
-
-    <main>
-        <h1 id="class_leader">Наш класний керівник<br/><img src="https://learn.logikaschool.com/uploads/student/1714889/67bf57031412c.jpg" width="300px">
-        </h1>
+    <!-- Фото тигра та опис -->
+    <section id="tiger_description">
+        <h2>Тигри</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/P.t.altaica_Tomak_Male.jpg/1200px-P.t.altaica_Tomak_Male.jpg" alt="Тигр">
         <p>
-            Нашого класного керівника звати Зуб Василь Іванович, він найдобріший та найкращий класний керівник.
+            Тигр (Panthera tigris) — це великий хижий кіт, відомий своєю величчю і красою. Цей вид є одним з найбільших хижаків на планеті. Тигри мешкають в Азії, де їхній природний ареал включає тропічні ліси, савани та гірські регіони. Їхнє хутро має характерні смуги оранжевого і чорного кольору, що допомагає їм маскуватися в лісах.
         </p>
+    </section>
 
-        <h2 id="honor_student">відмінник<br/><img src="https://learn.logikaschool.com/uploads/student/1714889/67bf597031537.jpg" width="300px">
-        </h2>
-        <p>Нашого відмінника звати Подм'ятніков Владислав</p>
+    <!-- Сибірський тигр -->
+    <section id="siberian_tiger">
+        <h2>Сибірський тигр</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOlKjKw0aVlmotbB-JwX8nI_dh7yVIkRLtQ&s" class="tiger-image" alt="Сибірський тигр">
+        <p>
+            Сибірський тигр (Panthera tigris altaica), також відомий як амурський тигр, є підвидом тигра, який мешкає в Сибіру та на Далекому Сході Росії. Це один із найбільших підвидів тигрів, що знаходиться під загрозою зникнення. У природі їх залишилось лише близько 500 особин, що робить їх надзвичайно рідкісними. Сибірські тигри відомі своєю великою силою і витривалістю, вони можуть переміщатися через снігові покриви в умовах суворої зими.
+        </p>
+    </section>
 
-        <h2 id="athlete">ударник<br/><img src="https://learn.logikaschool.com/uploads/student/1714889/67bf5d7f01ff2.jpg" width="300px">
-        </h2>
-        <p>Нашого ударника звати Туріна Себаст'ян</p>
+    <!-- Бенгальський тигр -->
+    <section id="bengal_tiger">
+        <h2>Бенгальський тигр</h2>
+        <img src="https://petsexotic.com.ua/assets/gallery/48/white-tiger__medium.jpg" class="tiger-image" alt="Бенгальський тигр">
+        <p>
+            Бенгальський тигр (Panthera tigris tigris) є найбільш численним підвидом тигра, з популяцією, що налічує близько 2500 особин. Вони мешкають в Індії, Бангладеш, Непалі та Бутані. Цей тигр є символом Індії, і він зображений на гербі країни. Бенгальські тигри є відмінними плавцями і можуть переміщатися через річки та озера, що дає їм перевагу в дикій природі.
+        </p>
+    </section>
 
-        <h2 id="schedule">Розклад</h2>
+    <!-- Малайський тигр -->
+    <section id="malayan_tiger">
+        <h2>Малайський тигр</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/MalayanTiger_PantheraTigrisJacksoni.jpg" class="tiger-image" alt="Малайський тигр">
+        <p>
+            Малайський тигр (Panthera tigris jacksoni) є підвидом тигра, що зустрічається на півострові Малакка в Малайзії. Це маленький підвид тигра, що є дуже рідкісним і знаходиться під загрозою зникнення. За оцінками, на сьогодні в природі налічується менше ніж 200 таких тигрів. Їхня чисельність значно зменшилась через втрату середовища проживання та браконьєрство.
+        </p>
+    </section>
+
+    <!-- Індокитайський тигр -->
+    <section id="indochinese_tiger">
+        <h2>Індокитайський тигр</h2>
+        <img src="https://img.ednews.net/news/2017/03/photo_123290.jpg" class="tiger-image" alt="Індокитайський тигр">
+        <p>
+            Індокитайський тигр (Panthera tigris corbetti) мешкає в лісах Індокитаю, зокрема в Камбоджі, Лаосі, В'єтнамі та Таїланді. Цей підвид відомий своєю витривалістю та здатністю жити в умовах гірських і тропічних лісів. Індокитайські тигри є дуже рідкісними, і їх популяція складає всього кілька сотень особин. Вони піддаються серйозним загрозам через браконьєрство та знищення середовища проживання.
+        </p>
+    </section>
+
+    <!-- Таблиця з характеристиками тигрів -->
+    <section id="comparison_table">
+        <h2>Порівняння видів тигрів</h2>
         <table>
             <tr>
-                <td></td>
-                <td>понеділок</td>
-                <td>вівторок</td>
-                <td>середа</td>
-                <td>четвер</td>
-                <td>п'ятниця</td>
+                <th>Вид тигра</th>
+                <th>Розмір (довжина)</th>
+                <th>Місце проживання</th>
+                <th>Статус збереження</th>
             </tr>
             <tr>
-                <td>1 урок</td>
-                <td>укр мова</td>
-                <td>укр мова</td>
-                <td>укр мова</td>
-                <td>англ мова</td>
-                <td>математика</td>
+                <td>Сибірський тигр</td>
+                <td>до 3,3 м</td>
+                <td>Східна Росія, Китай</td>
+                <td>Загрожений</td>
             </tr>
             <tr>
-                <td>2 урок</td>
-                <td>англ мова</td>
-                <td>географія</td>
-                <td>англ мова</td>
-                <td>географія</td>
-                <td>ЗБД</td>
+                <td>Бенгальський тигр</td>
+                <td>до 3,1 м</td>
+                <td>Індія, Бангладеш</td>
+                <td>Уразливий</td>
             </tr>
             <tr>
-                <td>3 урок</td>
-                <td>математика</td>
-                <td>англ мова</td>
-                <td>англ мова</td>
-                <td>географія</td>
-                <td>англ мова</td>
+                <td>Малайський тигр</td>
+                <td>до 2,5 м</td>
+                <td>Малайзія</td>
+                <td>Загрожений</td>
             </tr>
             <tr>
-                <td>4 урок</td>
-                <td>історія</td>
-                <td>німецька мова</td>
-                <td>українська література</td>
-                <td>математика</td>
-                <td>німецька</td>
+                <td>Індокитайський тигр</td>
+                <td>до 2,8 м</td>
+                <td>Індокитай (Лаос, Камбоджа, В'єтнам)</td>
+                <td>Загрожений</td>
             </tr>
             <tr>
-                <td>5 урок</td>
-                <td>українська література</td>
-                <td>математика</td>
-                <td>мистецтво</td>
-                <td>українська мова</td>
-                <td>фізкультура</td>
-            </tr>
-            <tr>
-                <td>6 урок</td>
-                <td>німецька</td>
-                <td>фізкультура</td>
-                <td>фізкультура</td>
-                <td>зарубіжна література</td>
-                <td>природа</td>
+                <td>Тигр Яванський</td>
+                <td>до 2,7 м</td>
+                <td>Острів Ява, Індонезія</td>
+                <td>Вимерлий</td>
             </tr>
         </table>
-    </main>
+    </section>
 
     <footer>
         <p>
@@ -165,8 +196,4 @@
         </p>
         <p>
             мій номер телефону: +380663136054
-        </p>
-    </footer>
-</body>
-
-</html>
+       
